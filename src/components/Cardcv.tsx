@@ -9,12 +9,12 @@ export const Cardcv = () => {
       height="70%"
       sx={{
         borderRadius: 4,
-        padding: 3,
+        padding: 1,
         mx: 'auto', // Center the box horizontally
         mb: 'auto%',
       }}
     >
-      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ width: '90%' }}>
+      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ width: '100%' }}>
         {cardsData.map((card, index) => (
           <Card key={index} sx={{ flex: 1, backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>
             <CardContent>

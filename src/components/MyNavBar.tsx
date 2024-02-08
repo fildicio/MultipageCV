@@ -39,19 +39,6 @@ export const MyNavBar = () => {
               CV
             </Button>
           </Link>
-          <Link to="/services" style={{ textDecoration: 'none' }}>
-            <Button
-              color="inherit"
-              variant="outlined"
-              style={{
-                color: 'white',
-                padding: theme.breakpoints.down('xs') ? '8px' : 'inherit',
-                margin: '4px', // Add margin between buttons
-              }}
-            >
-              Services
-            </Button>
-          </Link>
           <Link to="/contact" style={{ textDecoration: 'none' }}>
             <Button
               color="inherit"

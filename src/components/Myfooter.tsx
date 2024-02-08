@@ -16,12 +16,12 @@ export const MyFooter: FC = (): ReactElement => {
         <Grid container direction="column" alignItems="center">
           <Grid item xs={12}>
             <Typography color="black" variant="h5">
-              Lorem
+              Filippo di Cioccchis
             </Typography>
           </Grid>
           <Grid item xs={12}>
             <Typography color="textSecondary" variant="subtitle1">
-              {`${new Date().getFullYear()} | Lorem | Lorem | Lorem`}
+              {`${new Date().getFullYear()} | Filippo  | Filippo | Filippo`}
             </Typography>
           </Grid>
         </Grid>

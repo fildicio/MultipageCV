@@ -3,13 +3,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-export const MyBody = () => {
+export const ContactDetails = () => {
   return (
     <Box
       position="relative"
       width={{ xs: '80%', sm: '45%' }}
       height="100%"
-      bgcolor='rgba(255, 255, 255, 0.7)' // Adjust the alpha value (0.5) based on your desired transparency
+      bgcolor='rgba(255, 255, 255, 0.7)'
       borderRadius={1}
       padding={3}
       mx="auto"
@@ -18,29 +18,25 @@ export const MyBody = () => {
       textAlign="center"
     >
       <Typography variant="h1" fontSize="3rem" textAlign="center" p={1}>
-        I'm Filippo di Ciocchis
+        Contact
       </Typography>
       <Typography variant="h6" fontSize="1.5rem" textAlign="center" p={1}>
-        I'm a London Based Front end Engineer, currently working as a freelance.
+        Phone number: +447307175551
       </Typography>
       <Typography variant="h6" fontSize="1.5rem" textAlign="center" p={1}>
-        In my free time, you can find me at the gym, cuddling my dog, eating pizza.
+        email: fildicio@gmail.com
       </Typography>
       <Box textAlign="center" mt={2}>
-        <IconButton color="inherit" href='https://github.com/fildicio'>
+        <IconButton color="inherit">
           <GitHubIcon />
         </IconButton>
         <IconButton color="inherit" href="https://www.linkedin.com/in/diciocchis/">
           <LinkedInIcon />
         </IconButton>
-        <IconButton color="inherit" href='https://www.instagram.com/filippodeciocchis/?hl=it'>
+        <IconButton color="inherit">
           <InstagramIcon />
         </IconButton>
       </Box>
     </Box>
   );
 };
-
-
-
-
