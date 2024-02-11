@@ -16,7 +16,9 @@ export const ContactDetails = () => {
       mb="100%"
       mt="10%"
       textAlign="center"
+      tabIndex={4}    
     >
+      
       <Typography variant="h1" fontSize="3rem" textAlign="center" p={1}>
         Contact
       </Typography>
@@ -27,13 +29,13 @@ export const ContactDetails = () => {
         email: fildicio@gmail.com
       </Typography>
       <Box textAlign="center" mt={2}>
-        <IconButton color="inherit">
+        <IconButton  tabIndex={5} aria-label='Github page' color="inherit">
           <GitHubIcon />
         </IconButton>
-        <IconButton color="inherit" href="https://www.linkedin.com/in/diciocchis/">
+        <IconButton tabIndex={6} aria-label='Linkedin page' color="inherit" href="https://www.linkedin.com/in/diciocchis/">
           <LinkedInIcon />
         </IconButton>
-        <IconButton color="inherit">
+        <IconButton tabIndex={7} aria-label='Instagram page' color="inherit">
           <InstagramIcon />
         </IconButton>
       </Box>

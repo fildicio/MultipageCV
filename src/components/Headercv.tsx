@@ -14,11 +14,12 @@ export const Headercv = () => {
         mb: "2%",
         mt: "2%"
       }}
+      tabIndex={4}
     >
-      <Typography variant='h2' fontSize='3rem' textAlign='center'>
+      <Typography variant='h1' fontSize='3rem' textAlign='center'>
         Filippo di Ciocchis
       </Typography>
-      <Typography variant='h3' fontSize='2rem' textAlign='center' gutterBottom>
+      <Typography variant='h2' fontSize='2rem' textAlign='center' gutterBottom>
         Professional Summary
       </Typography>
       <Typography variant='body2' textAlign='inherit'>

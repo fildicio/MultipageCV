@@ -16,7 +16,9 @@ export const MyBody = () => {
       mb="100%"
       mt="10%"
       textAlign="center"
+      tabIndex={4}
     >
+     
       <Typography variant="h1" fontSize="3rem" textAlign="center" p={1}>
         I'm Filippo di Ciocchis
       </Typography>
@@ -27,13 +29,13 @@ export const MyBody = () => {
         In my free time, you can find me at the gym, cuddling my dog, eating pizza.
       </Typography>
       <Box textAlign="center" mt={2}>
-        <IconButton color="inherit" href='https://github.com/fildicio'>
+        <IconButton tabIndex={5} aria-label='link to Github' color="inherit" href='https://github.com/fildicio'>
           <GitHubIcon />
         </IconButton>
-        <IconButton color="inherit" href="https://www.linkedin.com/in/diciocchis/">
+        <IconButton tabIndex={6} aria-label='link to Linkedin' color="inherit" href="https://www.linkedin.com/in/diciocchis/">
           <LinkedInIcon />
         </IconButton>
-        <IconButton color="inherit" href='https://www.instagram.com/filippodeciocchis/?hl=it'>
+        <IconButton tabIndex={7} aria-label='link to Instagram' color="inherit" href='https://www.instagram.com/filippodeciocchis/?hl=it'>
           <InstagramIcon />
         </IconButton>
       </Box>

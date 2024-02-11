@@ -14,7 +14,9 @@ export const Experiencecv = () => {
         mx: 'auto',
         mb: "2%",
         mt: "2%"
+      
       }}
+      tabIndex={6}
     >
       <Typography variant='h3' fontSize='2rem' textAlign='left' gutterBottom>
         Work Experience

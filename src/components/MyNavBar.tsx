@@ -15,6 +15,8 @@ export const MyNavBar = () => {
         >
           <Link to="/" style={{ textDecoration: 'none' }}>
             <Button
+              tabIndex={1} // Set tabIndex for the first link
+              aria-label='home page'
               color="inherit"
               variant="outlined"
               style={{
@@ -28,6 +30,8 @@ export const MyNavBar = () => {
           </Link>
           <Link to="/Cv" style={{ textDecoration: 'none' }}>
             <Button
+              tabIndex={2} // Set tabIndex for the second link
+              aria-label='CV page'
               color="inherit"
               variant="outlined"
               style={{
@@ -41,6 +45,8 @@ export const MyNavBar = () => {
           </Link>
           <Link to="/contact" style={{ textDecoration: 'none' }}>
             <Button
+              tabIndex={3} // Set tabIndex for the third link
+              aria-label='Contact page'
               color="inherit"
               variant="outlined"
               style={{
@@ -57,3 +63,4 @@ export const MyNavBar = () => {
     </AppBar>
   );
 };
+

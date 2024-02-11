@@ -13,6 +13,7 @@ export const Cardcv = () => {
         mx: 'auto', // Center the box horizontally
         mb: 'auto%',
       }}
+      tabIndex={5}
     >
       <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ width: '100%' }}>
         {cardsData.map((card, index) => (
